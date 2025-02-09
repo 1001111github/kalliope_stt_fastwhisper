@@ -1,0 +1,9 @@
+--
+  name: "fastwhisper"
+  type: "stt"
+  author: "Kalliope project team + djm"
+  kalliope_supported_version:
+    - 0.7
+  tags:
+    - "stt"
+    - "fastwhisper"

@@ -1,0 +1,11 @@
+---
+- name: fastwhisper
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+  tasks:
+    - name: "pip installs"
+      pip:
+        name: faster-whisper
+        executable: pip3

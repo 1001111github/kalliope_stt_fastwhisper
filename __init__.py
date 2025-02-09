@@ -1,0 +1,1 @@
+from .fastwhisper import Fastwhisper
