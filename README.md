@@ -3,7 +3,7 @@ Faster-Whisper STT Engine for Kalliope, see details at [here](https://github.com
 
 ## Installation
 ```bash
-kalliope install --git-url https://github.com/github10011111/kalliope_stt_fastwhisper.git
+kalliope install --git-url https://github.com/1001111github/kalliope_stt_fastwhisper.git
 ```
 
 ## Parameters
