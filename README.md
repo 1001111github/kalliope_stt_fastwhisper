@@ -26,31 +26,3 @@ triggers:
       language: "English"
       engine: "small"
 ```
-
-## Available Openwakeword wake words
-To install the default Openwakeword models:
-In python:
-```
-  import openwakeword
-  from openwakeword.model import Model
-  openwakeword.utils.download_models()
-```
-
-There are some available wake words [here](https://github.com/fwartner/home-assistant-wakewords-collection). 
-You need the wake_word.[tflite|onnx] file and the wake_word.[tflite|onnx].json file, both need to be in the same directory. 
-You will have to rename the wake_word_wake_word.[tflite|onnx].json file to wake_word.[tflite|onnx].json
-
-## Note
-
-You have to add the path to the trigger folder in your settings.
-E.g.:
-```
-# ---------------------------
-# resource directory path
-# ---------------------------
-resource_directory:
-  trigger: "resources/trigger"
-  neuron: "resources/neurons"
-  stt: "resources/stt"
-  tts: "resources/tts"
-```
